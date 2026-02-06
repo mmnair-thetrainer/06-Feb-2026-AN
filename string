@@ -1,8 +1,9 @@
-s="new 7 strings@#@#"
+a="new 7 strings@#@#"
 l=[]
-for i in s:
+for i in a:
     if(i.isalpha() or (i.isnumeric() and int(i)<6)):
         l.append(i)
 
 print(l)
     
+
